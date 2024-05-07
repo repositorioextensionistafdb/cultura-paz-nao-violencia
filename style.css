@@ -1,0 +1,10 @@
+.header-creme {
+    background-color: #f5f5dc; /* Cor creme */
+}
+
+.tag-azul-pastel {
+    background-color: #aec6cf; /* Azul pastel */
+    color: #fff; /* Texto branco */
+    padding: 3px 6px; /* Espaçamento interno */
+    border-radius: 3px; /* Borda arredondada */
+}
