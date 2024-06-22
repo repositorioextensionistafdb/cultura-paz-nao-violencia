@@ -12,14 +12,14 @@
 </head>
 
 <body>
-    <header class="header-creme">
+    <header class="repository-header">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-6">
                     <h1>Repositório Extensionista</h1>
                 </div>
                 <div class="col-md-6 text-right">
-                    <img src="imgs/logo.png" alt="Logo" class="img-fluid">
+                    <img src="imgs/logo_fdb.png" alt="Logo" class="img-fluid">
                 </div>
             </div>
         </div>
@@ -33,41 +33,41 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" onclick="viewContent('content')" href="#">Tudo</a>
+                        <a class="nav-link" onclick="viewContent('content')" href="#">Paz e não violência</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="viewContent('content-image')" href="#">Imagem</a>
+                        <a class="nav-link" onclick="viewContent('content-leitura')" href="#">Leituras</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="viewContent('content-audio')" href="#">Audio</a>
+                        <a class="nav-link" onclick="viewContent('content-audio')" href="#">Sonoros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" onclick="viewContent('content-video')" href="#">Video</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" onclick="viewContent('content-article')" href="#">Artigo</a>
+                        <a class="nav-link" onclick="viewContent('content-video')" href="#">Audiovisual</a>
                     </li>
                 </ul>
-                <form class="form-inline ml-auto">
+                <!-- Será implementado em uma futura atualização -->
+                <!--<form class="form-inline ml-auto">
                     <input class="form-control mr-sm-2" type="search" placeholder="Digite sua busca" aria-label="Search">
                     <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Buscar</button>
-                </form>
+                </form>-->
             </div>
         </div>
     </nav>
 
     <div class="container mt-4">
         <div class="row">
-            <div class="col-md-3 mb-4 content content-image">
-                <div class="card">
-                    <img src="imgs/imagem.png" class="card-img-top img-thumbnail" alt="Imagem">
-                    <div class="card-body">
-                        <h5 class="card-title">Material Academico em Imagem</h5>
-                        <p class="card-text">Data de Postagem: 01/05/2024</p>
-                        <p class="card-text">Autor: João Silva</p>
-                        <span class="tag-azul-pastel">Imagens</span>
+            <div class="col-md-3 mb-4 content content-leitura">
+                <a href="https://drive.google.com/file/d/15i9DkNCAjsApAaTLq-pCZr6NCKSKyYI2/view" target="_blank">
+                    <div class="card">
+                        <img src="imgs/artigo.png" class="card-img-top img-thumbnail" alt="Artigo Academico">
+                        <div class="card-body">
+                            <h5 class="card-title">O Diário de Anne Frank</h5>
+                            <p class="card-text">Data de Postagem: 04/05/2024</p>
+                            <p class="card-text">Autora: Hanna Teixeira</p>
+                            <span class="tag-azul-pastel">Leitura</span>
+                        </div>
                     </div>
-                </div>
+                </a>
             </div>
             <div class="col-md-3 mb-4 content content-audio">
                 <div class="card">
@@ -91,7 +91,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3 mb-4 content content-article">
+            <div class="col-md-3 mb-4 content content-leitura">
                 <div class="card">
                     <img src="imgs/artigo.png" class="card-img-top img-thumbnail" alt="Artigo Academico">
                     <div class="card-body">

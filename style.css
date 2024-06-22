@@ -1,5 +1,6 @@
-.header-creme {
-    background-color: #f5f5dc; /* Cor creme */
+.repository-header {
+    background-color: #1c3e93; /* Cor do portal do aluno */
+    color: white;
 }
 
 .tag-azul-pastel {
@@ -7,4 +8,13 @@
     color: #fff; /* Texto branco */
     padding: 3px 6px; /* Espaçamento interno */
     border-radius: 3px; /* Borda arredondada */
+}
+
+/* Remove os estilos das tags de link */
+a, a:hover{
+  color: inherit;         /* Herda a cor do elemento pai */
+  text-decoration: none;  /* Remove sublinhado */
+  border: none;           /* Remove qualquer borda */
+  background: none;       /* Remove qualquer fundo */
+  outline: none;          /* Remove contorno ao focar */
 }
