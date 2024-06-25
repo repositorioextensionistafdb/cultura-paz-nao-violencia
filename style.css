@@ -1,8 +1,11 @@
 .repository-header {
-    background-color: #1c3e93; /* Cor do portal do aluno */
+    background-color: #673BFA; /* Cor do portal do aluno */
     color: white;
 }
-
+.logo-img {
+  width: 350px; /* Altere para o tamanho desejado */
+  height: auto; /* Mantém a proporção da imagem */
+}
 .tag-azul-pastel {
     background-color: #aec6cf; /* Azul pastel */
     color: #fff; /* Texto branco */
