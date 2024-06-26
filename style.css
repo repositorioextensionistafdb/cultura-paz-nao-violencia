@@ -19,6 +19,29 @@ a, a:hover{
   background: none;     
   outline: none;          
 }
+
 .card-text{
   margin-bottom: 1px;
+}
+
+.repository-banner {
+  height: 50vh; /* Ajuste a altura conforme necessário */
+  background-color:#673BFA; /* Cor de fundo opcional */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 2px solid white; /* Borda branca */
+  box-sizing: border-box; /* Inclui a borda no cálculo da largura/altura */
+}
+
+.banner-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.banner-img {
+  width: 600px;
+  height: auto;
 }
