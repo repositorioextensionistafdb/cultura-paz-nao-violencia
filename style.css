@@ -25,13 +25,14 @@ a, a:hover{
 }
 
 .repository-banner {
-  height: 50vh; /* Ajuste a altura conforme necessário */
-  background-color:#673BFA; /* Cor de fundo opcional */
+  height: 50vh; 
+  background-color:#673BFA; 
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 2px solid white; /* Borda branca */
-  box-sizing: border-box; /* Inclui a borda no cálculo da largura/altura */
+  border-top: 2px solid white; 
+  box-sizing: border-box; 
+  border-radius: 10px;
 }
 
 .banner-img-container {
