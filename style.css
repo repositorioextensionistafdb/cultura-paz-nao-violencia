@@ -1,27 +1,24 @@
 .repository-header {
-    background-color: #673BFA; /* Cor do portal do aluno */
+    background-color: #673BFA;
     color: white;
 }
 .logo-img {
-  width: 350px; /* Altere para o tamanho desejado */
-  height: auto; /* Mantém a proporção da imagem */
+  width: 350px;
+  height: auto;
 }
 .tag-azul-pastel {
-    background-color: #aec6cf; /* Azul pastel */
-    color: #fff; /* Texto branco */
-    padding: 3px 6px; /* Espaçamento interno */
-    border-radius: 3px; /* Borda arredondada */
+    background-color: #aec6cf;
+    color: #fff; 
+    padding: 3px 6px;
+    border-radius: 3px;
 }
-
-/* Remove os estilos das tags de link */
 a, a:hover{
-  color: inherit;         /* Herda a cor do elemento pai */
-  text-decoration: none;  /* Remove sublinhado */
-  border: none;           /* Remove qualquer borda */
-  background: none;       /* Remove qualquer fundo */
-  outline: none;          /* Remove contorno ao focar */
+  color: inherit;         
+  text-decoration: none;
+  border: none;       
+  background: none;     
+  outline: none;          
 }
-
 .card-text{
   margin-bottom: 1px;
 }
